@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 
-import * as C from "./styles";
+import * as C from "../../styles";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
           {data.map(({ id, name, price, oldPrice, image }) => (
             <C.Item key={id}>
               <C.Title>
-                <h3>Título do Evento</h3>
+                <h3>Título do Evento..</h3>
               </C.Title>
               <C.Info>
                 <p>
