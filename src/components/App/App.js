@@ -1,7 +1,11 @@
 import { useEffect, useState, useRef } from "react";
 
-import * as C from "../../styles";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import * as C from "./styles";
+import {
+  MdKeyboardArrowLeft,
+  MdKeyboardArrowRight,
+  MdOutlineArrowForwardIos,
+} from "react-icons/md";
 
 function App() {
   const [data, setData] = useState([]);
@@ -31,12 +35,21 @@ function App() {
   }
   return (
     <C.Container>
+      <C.ColumnOne>
+        <C.Icon />
+        <C.Event>
+          <h1>Próximos eventos</h1>
+        </C.Event>
+        <C.IconLeft>
+          <MdOutlineArrowForwardIos />
+        </C.IconLeft>
+      </C.ColumnOne>
       <C.Carousel>
         <div className="carousel" ref={carousel}>
           {data.map(({ id, name, price, oldPrice, image }) => (
             <C.Item key={id}>
               <C.Title>
-                <h3>Título do Evento..</h3>
+                <h3>Título do Evento</h3>
               </C.Title>
               <C.Info>
                 <p>

@@ -8,6 +8,43 @@ export const Title = styled.h3`
   top: 4rem;
 `;
 
+export const ColumnOne = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  height: 70px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+
+  align-items: center;
+  box-shadow: 0px 3px 4px 0px gray;
+  margin-bottom: 10px;
+`;
+
+export const Icon = styled.div``;
+
+export const Event = styled.div`
+  max-width: 10rem;
+
+  padding: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  h1 {
+    padding-left: 20px;
+    text-align: left;
+  }
+`;
+
+export const IconLeft = styled.div``;
+
+export const MdArrowForwardIos = styled.div``;
+
 export const Container = styled.div`
   max-width: 35vw;
 
@@ -32,6 +69,7 @@ export const Container = styled.div`
 export const Carousel = styled.div`
   position: relative;
   margin: 0 auto;
+  padding-left: 1rem;
   display: flex;
 
   overflow-x: auto;
