@@ -36,13 +36,9 @@ function App() {
   return (
     <C.Container>
       <C.ColumnOne>
-        <C.Icon />
         <C.Event>
-          <h1>Próximos eventos</h1>
+          <h1>Carrossel</h1>
         </C.Event>
-        <C.IconLeft>
-          <MdOutlineArrowForwardIos />
-        </C.IconLeft>
       </C.ColumnOne>
       <C.Carousel>
         <div className="carousel" ref={carousel}>
