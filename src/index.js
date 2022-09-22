@@ -8,10 +8,8 @@ import Twitter from "./components/Twitter";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Twitter />
   </React.StrictMode>,
   document.getElementById("root")
 );
-
 
 reportWebVitals();
