@@ -6,12 +6,12 @@ function Twitter() {
       <C.Card>
         <C.Avatar></C.Avatar>
         <C.Header>
-          <strong>Escola Vereda</strong>
-          <span>@EscolaVereda</span>
+          <strong>Escola Teste</strong>
+          <span>@EscolaTeste</span>
           <time>20 h</time>
         </C.Header>
         <C.Description>
-          Dia de Vestibulando na Escola Vereda Mooca!
+          Dia de Vestibulando na Escola!
         </C.Description>
         <C.Image />
         <C.Icons>
